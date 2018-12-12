@@ -1,0 +1,12 @@
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.xml
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.deps.json
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.runtimeconfig.json
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.runtimeconfig.dev.json
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.dll
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\bin\Debug\netcoreapp2.0\AgendaAPI.pdb
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.csprojAssemblyReference.cache
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.csproj.CoreCompileInputs.cache
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.AssemblyInfoInputs.cache
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.AssemblyInfo.cs
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.dll
+C:\Users\jonat\source\repos\AgendaAPI\AgendaAPI\obj\Debug\netcoreapp2.0\AgendaAPI.pdb

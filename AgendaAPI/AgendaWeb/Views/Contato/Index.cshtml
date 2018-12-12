@@ -1,0 +1,73 @@
+﻿@model IEnumerable<AgendaWeb.Models.Contato>
+
+@{
+    ViewBag.Title = "Phone book";
+}
+
+<h2>Contacts</h2>
+
+<p>
+    <a href="@Url.Action("AddorEdit", "Contato")" class="btn btn-default"><i class="fa fa-plus"></i> Create New</a>
+</p>
+
+@using (Html.BeginForm("Index", "Contato", FormMethod.Get))
+{
+    <p>
+        Search by name : @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table table-striped">
+    <thead class="table-heading">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Telephone
+            </th>
+            <th>
+                Schedule
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idagenda)
+            </td>
+            <td>
+                <a href="@Url.Action("AddOrEdit", "Contato", new { id = item.id})" class="btn btn-default"><i class="fa fa-pencil"></i>  Edit</a>
+                <a onclick="Delete(@item.id)" class="btn btn-default"><i class="fa fa-trash"></i>  Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section scripts{
+    <script>
+        $(function () {
+            var successMessage = '@TempData["SuccessMessage"]'
+            if (successMessage != '')
+                alertify.success(successMessage);
+        });
+
+        function Delete(id) {
+            alertify.confirm('Web Api CRUD Operations','Are You Sure to Delete this Record ?',function(){
+                window.location.href  = '@Url.Action("Delete","Employee")/'+id;
+            },null );
+        }
+    </script>
+}

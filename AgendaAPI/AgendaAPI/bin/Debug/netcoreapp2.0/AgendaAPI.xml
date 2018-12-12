@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgendaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:AgendaApi.Controllers.AgendaController.Get">
+            <summary>
+            View Schedule Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaApi.Controllers.AgendaController.Get(System.Int32)">
+            <summary>
+            View Schedule Details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaApi.Controllers.AgendaController.Put(AgendaApi.Models.Agenda)">
+            <summary>
+            Create new Schedule
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaApi.Controllers.AgendaController.Post(System.Int32,AgendaApi.Models.Agenda)">
+            <summary>
+            Update Schedule
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaApi.Controllers.AgendaController.Delete(System.Int32)">
+            <summary>
+            Delete Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:AgendaApi.Models.Agenda.id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Agenda.nome">
+            <summary>
+            Schedule name
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Agenda.contatos">
+            <summary>
+            Contacts
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Contato.id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Contato.nome">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Contato.telefone">
+            <summary>
+            Contact
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Contato.idagenda">
+            <summary>
+            id schedule
+            </summary>
+        </member>
+        <member name="P:AgendaApi.Models.Contato.agenda">
+            <summary>
+            schedule
+            </summary>
+        </member>
+        <member name="M:ApiAgenda.Controllers.ContatoController.Get">
+            <summary>
+            List all contact details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAgenda.Controllers.ContatoController.Get(System.Int32)">
+            <summary>
+            View Contact Details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAgenda.Controllers.ContatoController.Put(AgendaApi.Models.Contato)">
+            <summary>
+            Create new contact
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAgenda.Controllers.ContatoController.Post(System.Int32,AgendaApi.Models.Contato)">
+            <summary>
+            Update contact
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAgenda.Controllers.ContatoController.Delete(System.Int32)">
+            <summary>
+            Delete contact
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaAPI.Controllers.TokenController.Get(System.String,System.String)">
+            <summary>
+            Validate access and generate token
+            </summary>
+            <param name="username">Name</param>
+            <param name="password">Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaAPI.Controllers.TokenController.GenerateToken(System.String)">
+            <summary>
+            Generate token
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaAPI.Controllers.ValuesController.Get">
+            <summary>
+            Display values, required authorization
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaAPI.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Display value, required authorization
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgendaAPI.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Inserts registration, authorization required
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:AgendaAPI.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Updates registration, authorization required
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:AgendaAPI.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Deletes registration, necessary authorization
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
